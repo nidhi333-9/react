@@ -1,11 +1,13 @@
+import Main from "./components/Main"
+import Navbar from "./components/Navbar"
 
-import reactLogo from './assets/react.svg'
-import './App.css'
+
 
 function App() {
   return (
     <>
-
+      <Navbar />
+      <Main />
     </>
   )
 }
