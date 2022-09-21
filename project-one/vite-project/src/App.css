@@ -5,6 +5,7 @@
   padding: 0;
   font-family: 'Inter', sans-serif;
 
+
 }
 
 nav {
@@ -12,6 +13,7 @@ nav {
   display: inline-flex;
   background-color: #21222A;
   padding: .5rem;
+
 }
 
 .logo {
@@ -38,6 +40,9 @@ h4 {
 .container {
   width: 450px;
   padding: 3rem 2rem;
+  background-image: url(../src/assets/Frame.svg);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 .container>h1 {
