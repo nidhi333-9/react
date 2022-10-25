@@ -10,8 +10,8 @@ const icecreamSlice = createSlice({
         ordered: (state) => {
             state.numOfIcecreams--
         },
-        restocked: (state, actions) => {
-            state.numOfIcecreams += actions.payload
+        restocked: (state, action) => {
+            state.numOfIcecreams += action.payload
         },
     },
 })
